@@ -1,0 +1,29 @@
+body {
+    background-image: url("./bilder/image-24.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1 {
+font-size: 50px;
+color: white;
+font-style: italic;
+margin-left: 40px;
+}
+p {
+color: white;
+font-style: italic;
+stroke: black;
+background: #00000036;
+width: 500px;
+padding: 20px;
+margin-left: 40px;
+border-radius: 5px;
+}
+a {
+
+}
+img {
+margin-left: 40px;
+height: 100px;
+width: 100px;
+}
