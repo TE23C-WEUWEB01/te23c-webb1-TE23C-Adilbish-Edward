@@ -1,0 +1,32 @@
+body {
+    background-color: #f9dddd;
+}
+table {
+    background-color: pink;
+    width: 1200px;
+}
+caption {
+    padding: 30px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(./bilder/picnic-tablecloth-seamless-pattern-free-vector.jpg);
+    font-weight: bold;
+}
+tr {
+
+}
+th {
+    padding: 20px;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+td {
+    background-color: white;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+img {
+    width: 150px;
+    min-height: 150px;
+    min-width: 150px;
+}
