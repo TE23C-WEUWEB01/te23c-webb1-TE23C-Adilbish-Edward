@@ -1,0 +1,36 @@
+body {
+    background-color: gray;
+    background-image: url(./bilder/PIA00405~large.jpg);
+    background-size: cover;
+}
+.kontainer {
+    width: 800px;
+    padding: 30px;
+    margin: auto;
+}
+h1 {
+    color: white;
+    font-size: 120px;
+    text-align: center;
+}
+h2 {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+h3 {
+    color: white;
+}
+.bild {
+    background-color: #000;
+    color: #fff;
+    padding: 50px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+}
+img {
+    width: 100%;
+}
+p {
+    color: white;
+}
