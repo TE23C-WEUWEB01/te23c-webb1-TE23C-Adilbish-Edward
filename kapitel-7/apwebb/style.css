@@ -1,0 +1,49 @@
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+/* Sidans layout*/
+img {
+    width: 100%;
+}
+.kontainer {
+    width: 1000px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-areas: 
+    "sidhuvud sidhuvud"
+    "innehall sidebar"
+    "sidfot sidfot";
+}
+
+header {
+    grid-area: sidhuvud;
+    background-color: green;
+}
+
+main {
+    grid-area: innehall;
+    background-color: lightcoral;
+}
+
+aside {
+    grid-area: sidebar;
+    background-color: yellow;
+}
+
+footer {
+    grid-area: sidfot;
+    background-color: blueviolet;
+}
