@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap');
+
+
 /* Enkel CSS-reset */
 html {
     box-sizing: border-box;
@@ -13,11 +16,11 @@ img {
     max-width: 100%;
     height: auto;
 }
-/* Sidans layout*/
-img {
-    width: 100%;
-}
-.kontainer {
+
+/* Sidans */
+
+.kontainer
+{
     width: 1000px;
     margin: auto;
     display: grid;
@@ -26,24 +29,78 @@ img {
     "sidhuvud sidhuvud"
     "innehall sidebar"
     "sidfot sidfot";
+    gap: 20px;
 }
 
-header {
+body 
+{
+    background-image: url(./bilder/karl-anderson-7zg5bnhm2X0-unsplash.jpg);
+}
+
+header 
+{
     grid-area: sidhuvud;
-    background-color: green;
+
 }
 
-main {
+main
+{
     grid-area: innehall;
-    background-color: lightcoral;
+    background-color: #FFF;
+    border-radius: 20px;
+    padding: 40px;
 }
 
-aside {
+aside
+{
     grid-area: sidebar;
-    background-color: yellow;
+    background-color: #FFF;
+    border-radius: 20px;
+    padding: 20px;
 }
 
-footer {
+footer
+{
     grid-area: sidfot;
-    background-color: blueviolet;
+    background-color: rgba(255, 255, 255, 0.516);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+
+header h1
+{
+    font-family: "Freckle Face", serif;
+    font-size: 80px;
+    color: #FFF;
+}
+
+header h2
+{
+    font-family: "Freckle Face", serif;
+    font-size: 30px;
+    color: #FFF;
+
+}
+
+header nav 
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: rgb(32,134,2);
+    background: linear-gradient(0deg, rgba(32,134,2,1) 0%, rgba(77,255,81,1) 40%, rgba(128,255,133,1) 60%, rgba(0,180,17,1) 100%);
+    padding: 20px;
+
+}
+
+header nav a
+{
+    color: #FFF;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 20px 10px;
+}
+
+header nav a:hover
+{
+
 }
