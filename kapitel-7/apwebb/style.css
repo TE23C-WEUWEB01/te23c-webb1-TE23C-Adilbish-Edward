@@ -29,13 +29,13 @@ body
 
 /* Responsiv layout */
 /* Små enheter < 576px */
-@media (min-witdh: 576px) {
+@media (min-width: 576px) {
     .kontainer
     {
-        width: 1000px;
+        width: 100%;
         margin: auto;
         display: grid;
-        grid-template-columns: auto 200px;
+        grid-template-columns: auto;
         grid-template-areas: 
         "sidhuvud"
         "innehall"
@@ -45,7 +45,7 @@ body
     }
 }
 /* Mellan enheter < 768px */
-@media (min-witdh: 768px) {
+@media (min-width: 768px) {
     .kontainer
     {
         width: 100%;
@@ -60,7 +60,7 @@ body
     }
 }
 /* Stora enheter < 1280px */
-@media (min-witdh: 1280px) {
+@media (min-width: 1280px) {
     .kontainer
     {
         width: 1280px;
