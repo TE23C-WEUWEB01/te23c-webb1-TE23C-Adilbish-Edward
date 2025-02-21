@@ -17,24 +17,62 @@ img {
     height: auto;
 }
 
+
 /* Sidans */
 
-.kontainer
-{
-    width: 1000px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    grid-template-areas: 
-    "sidhuvud sidhuvud"
-    "innehall sidebar"
-    "sidfot sidfot";
-    gap: 20px;
-}
+
 
 body 
 {
     background-image: url(./bilder/karl-anderson-7zg5bnhm2X0-unsplash.jpg);
+}
+
+/* Responsiv layout */
+/* Små enheter < 576px */
+@media (min-witdh: 576px) {
+    .kontainer
+    {
+        width: 1000px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: auto 200px;
+        grid-template-areas: 
+        "sidhuvud"
+        "innehall"
+        "sidebar"
+        "sidfot";
+        gap: 20px;
+    }
+}
+/* Mellan enheter < 768px */
+@media (min-witdh: 768px) {
+    .kontainer
+    {
+        width: 100%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: auto 200px;
+        grid-template-areas: 
+        "sidhuvud sidhuvud"
+        "innehall sidebar"
+        "sidfot sidfot";
+        gap: 20px;
+    }
+}
+/* Stora enheter < 1280px */
+@media (min-witdh: 1280px) {
+    .kontainer
+    {
+        width: 1280px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        grid-template-areas: 
+        "sidhuvud sidhuvud"
+        "innehall sidebar"
+        "sidfot sidfot";
+        gap: 20px;
+    }
 }
 
 header 
