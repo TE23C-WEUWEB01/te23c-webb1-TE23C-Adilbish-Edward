@@ -24,3 +24,24 @@
     transform: translate(-50%, -50%);
     border: none;
 }
+
+.wanderer main {
+    display: grid;
+    align-items: center;
+}
+
+.mars h1 {
+    color: #5d0d0d;
+}
+
+.mars header nav a {
+   color: #5d0d0d;
+}
+
+.mars header nav a:hover {
+    border-bottom: 2px solid #5d0d0d;
+}
+.mars header nav a.active {
+    border-bottom: 2px solid #5d0d0d;
+}
+
